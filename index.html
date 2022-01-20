@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img width="350" src="./images/logo.png" alt="This is logo">
+                    <img class="img-fluid logo-imgs" width="350" src="./images/logo.png" alt="This is logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,16 +30,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto nav-hover">
                         <li class="nav-item mx-3">
-                            <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-dark" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link text-dark" href="#">Product</a>
+                            <a class="nav-link text-dark" href="#product">Product</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link text-dark" href="#">About Us</a>
+                            <a class="nav-link text-dark" href="#about">About Us</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link text-dark" href="#">Contact Us</a>
+                            <a class="nav-link text-dark" href="#contact">Contact Us</a>
                         </li>
 
                     </ul>
@@ -53,7 +53,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6">
-                        <div class="d-flex flex-column justify-content-center align-items-start h-100">
+                        <div class="d-flex flex-column justify-content-center align-items-start h-100 small-banner">
                             <h1 class="display-3"> <span class="text-highlight">Be the Penguins </span> <br>
                                 <span class="title-highlight">of Winter</span>
                             </h1>
@@ -76,9 +76,11 @@
         </section>
 
         <!-- Women Section -->
-        <section>
+        <section id="product">
             <div class="container">
-                <h1 class="title-highlight mt-5 mb-5">WOMEN JACKET</h1>
+                <div class="text-map">
+                    <h1 class="title-highlight mt-5 mb-5">WOMEN JACKET</h1>
+                </div>
                 <div class="row gy-3">
                     <div class="col-sm-12 col-md-6 col-lg-4">
 
@@ -153,7 +155,9 @@
         <!-- Man Section -->
         <section class="">
             <div class="container">
-                <h1 class="title-highlight mt-5 mb-5">Man JACKET</h1>
+                <div class="text-map">
+                    <h1 class="title-highlight mt-5 mb-5">Man JACKET</h1>
+                </div>
                 <div class="row gy-2">
                     <div class="col-md-6 col-lg-4">
 
@@ -225,19 +229,22 @@
         </section>
 
         <!-- About & Contact -->
-        <section class="mt-5">
+        <section class="mt-5" id="about">
             <div class="container">
                 <div class="row g-3">
                     <div class="col-12 col-lg-6 order-col-2 order-md-1 order-sm-2 order-2">
                         <div class="card mb-3 shadow bg-white rounded-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-3">
-                                    <img width="78" src="./images/house.png"
-                                        class="img-fluid rounded-start pt-2 pb-2 ps-2 pe-0 ms-3 mt-3 mb-3 me-0"
-                                        alt="...">
+                                    <div class="house">
+                                        <img width="78" src="./images/house.png"
+                                            class="img-fluid rounded-start pt-2 pb-2 ps-2 pe-0 ms-3 mt-3 mb-3 me-0"
+                                            alt="...">
+                                    </div>
                                 </div>
                                 <div class="col-md-9">
-                                    <div class="card-body pt-2 pb-2 ps-2 pe-0 ms-3 mt-3 mb-3 me-0">
+                                    <div
+                                        class="card-body pt-2 pb-2 ps-2 pe-0 ms-3 mt-3 mb-3 me-0 text-center text-md-start">
                                         <h5 class="card-title">Find the Perfect Fit</h5>
                                         <p class="card-text">Everybody is different, which is why we
                                             offer styles for every body.
@@ -249,12 +256,16 @@
                         <div class="card mb-3 shadow bg-white rounded-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-3">
-                                    <img width="78" src="./images/box.png"
-                                        class="img-fluid rounded-start pt-2 pb-2 ps-2 pe-0 ms-3 mt-3 mb-3 me-0"
-                                        alt="...">
+                                    <div class="house">
+                                        <img width="78" src="./images/box.png"
+                                            class="img-fluid rounded-start pt-2 pb-2 ps-2 pe-0 ms-3 mt-3 mb-3 me-0"
+                                            alt="...">
+                                    </div>
+
                                 </div>
                                 <div class="col-md-9">
-                                    <div class="card-body pt-2 pb-2 ps-2 pe-0 ms-3 mt-3 mb-3 me-0">
+                                    <div
+                                        class="card-body pt-2 pb-2 ps-2 pe-0 ms-3 mt-3 mb-3 me-0 text-center text-md-start">
                                         <h5 class="card-title">Free Exchanges</h5>
                                         <p class="card-text">One of the many reasons you can shop
                                             with peace of mind.
@@ -266,12 +277,16 @@
                         <div class="card mb-3 shadow bg-white rounded-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-3">
-                                    <img width="78" src="./images/question.png"
-                                        class="img-fluid rounded-start pt-2 pb-2 ps-2 pe-0 ms-3 mt-3 mb-3 me-0"
-                                        alt="...">
+                                    <div class="house">
+                                        <img width="78" src="./images/question.png"
+                                            class="img-fluid rounded-start pt-2 pb-2 ps-2 pe-0 ms-3 mt-3 mb-3 me-0"
+                                            alt="...">
+                                    </div>
+
                                 </div>
                                 <div class="col-md-9">
-                                    <div class="card-body pt-2 pb-2 ps-2 pe-0 ms-3 mt-3 mb-3 me-0">
+                                    <div
+                                        class="card-body pt-2 pb-2 ps-2 pe-0 ms-3 mt-3 mb-3 me-0 text-center text-md-start">
                                         <h5 class="card-title">Contact Our Seller</h5>
                                         <p class="card-text">They are here to help you. That's quite
                                             literally what we pay them for.
@@ -294,7 +309,7 @@
 
 
     <!-- Footer -->
-    <footer class="text-center text-lg-start bg-light text-muted">
+    <footer class="text-center text-lg-start bg-light text-muted" id="contact">
         <!-- Section: Social media -->
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
