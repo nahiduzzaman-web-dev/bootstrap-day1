@@ -16,6 +16,9 @@ body{
 .title-highlight{
     color: #363958;
 }
+a{
+    text-decoration: none;
+}
 /* Navigation Styles */
 .nav-hover li a:hover{
     color: #363958;
